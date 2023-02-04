@@ -1,0 +1,151 @@
+
+body {
+font-family: Overpass, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+.main-container {
+  background: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  background: #1e242e;
+  width: 310px;
+  height: 265px;
+  margin: 0 auto;
+  border-radius: 22px;
+  padding: 20px;
+}
+
+.logo img {
+  border-radius: 50%;
+  background: #272e3f;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.container h1 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.container p {
+  font-size: 14px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.button-container {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.button-container button {
+  background: #272e3f;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  color: #fff;
+  border: none;
+}
+
+.button-container button:hover {
+  background: #7d8796;
+  cursor: pointer;
+}
+
+.button-container button:focus {
+  background: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+ 
+.button-container button:active {
+  background: hsl(217, 12%, 63%);
+}
+
+
+.submit {
+  width: 100%;
+  padding: 10px;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  background: hsl(25, 97%, 53%);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.submit:hover {
+  background: #fff;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.container-thanks {
+  background: #1e242e;
+  width: 310px;
+  height: 285px;
+  margin: 0 auto;
+  border-radius: 22px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rating {
+  color: hsl(25, 97%, 53%);
+  background: #272e3f;
+  width: max-content;
+  margin: 0 auto;
+  padding: 5px 16px;
+  border-radius: 22px;
+}
+
+.rating p {
+  font-size: 14px;
+}
+
+.container-thanks h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.we {
+  width: 315px;
+  margin: 0 auto;
+  color: hsl(217, 12%, 63%);
+  font-size: 14px;
+  
+}
+
+.thankYou {
+  display: none;
+}
+
+
+.attribution {
+  padding: 20px;
+  background: hsl(217, 12%, 63%);
+  
+}
